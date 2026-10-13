@@ -1,0 +1,837 @@
+{
+ "name": "EURO AI open AI-vendor catalogue",
+ "version": "0.2",
+ "checked": "2026-10-13",
+ "licence": "CC0-1.0 (data); each entry cites the vendor's own page",
+ "note": "Entries list AI features as described on the vendor's own page on the checked date. Inclusion says nothing about any vendor's legal status under any law.",
+ "vendors": [
+  {
+   "id": "google-workspace",
+   "name": "Google Workspace (Gemini)",
+   "aliases": [
+    "google workspace",
+    "gsuite",
+    "g suite",
+    "gmail",
+    "google docs",
+    "gemini"
+   ],
+   "ai": "Generative AI assistant (Gemini) in Gmail, Docs, Sheets, Meet",
+   "hint": "art50",
+   "src": "https://workspace.google.com/solutions/ai/"
+  },
+  {
+   "id": "notion",
+   "name": "Notion AI",
+   "aliases": [
+    "notion"
+   ],
+   "ai": "AI writing, Q&A and search across workspace content",
+   "hint": "minimal",
+   "src": "https://www.notion.com/product/ai"
+  },
+  {
+   "id": "slack",
+   "name": "Slack AI",
+   "aliases": [
+    "slack"
+   ],
+   "ai": "AI summaries of channels/threads, AI search",
+   "hint": "minimal",
+   "src": "https://slack.com/features/ai"
+  },
+  {
+   "id": "salesforce",
+   "name": "Salesforce (Agentforce / Einstein)",
+   "aliases": [
+    "salesforce",
+    "sfdc",
+    "agentforce",
+    "einstein"
+   ],
+   "ai": "AI agents and predictive/generative CRM features",
+   "hint": "art50",
+   "src": "https://www.salesforce.com/artificial-intelligence/"
+  },
+  {
+   "id": "hubspot",
+   "name": "HubSpot (Breeze AI)",
+   "aliases": [
+    "hubspot",
+    "breeze"
+   ],
+   "ai": "AI agents, content generation, chat assistant",
+   "hint": "art50",
+   "src": "https://www.hubspot.com/artificial-intelligence"
+  },
+  {
+   "id": "zendesk",
+   "name": "Zendesk AI",
+   "aliases": [
+    "zendesk"
+   ],
+   "ai": "AI agents answering customers, agent copilot",
+   "hint": "art50",
+   "src": "https://www.zendesk.com/service/ai/"
+  },
+  {
+   "id": "intercom",
+   "name": "Intercom Fin",
+   "aliases": [
+    "intercom",
+    "fin"
+   ],
+   "ai": "AI customer-service agent that chats with customers",
+   "hint": "art50",
+   "src": "https://www.intercom.com/fin"
+  },
+  {
+   "id": "grammarly",
+   "name": "Grammarly",
+   "aliases": [
+    "grammarly"
+   ],
+   "ai": "Generative AI writing assistance",
+   "hint": "minimal",
+   "src": "https://www.grammarly.com/ai"
+  },
+  {
+   "id": "canva",
+   "name": "Canva (AI image generator)",
+   "aliases": [
+    "canva"
+   ],
+   "ai": "Text-to-image generation and AI design tools",
+   "hint": "art50",
+   "src": "https://www.canva.com/ai-image-generator/"
+  },
+  {
+   "id": "atlassian",
+   "name": "Atlassian (Rovo / Atlassian Intelligence)",
+   "aliases": [
+    "atlassian",
+    "jira",
+    "confluence",
+    "rovo",
+    "trello"
+   ],
+   "ai": "AI search, agents and summaries in Jira/Confluence",
+   "hint": "minimal",
+   "src": "https://www.atlassian.com/platform/artificial-intelligence"
+  },
+  {
+   "id": "github-copilot",
+   "name": "GitHub Copilot",
+   "aliases": [
+    "github",
+    "copilot github",
+    "github copilot"
+   ],
+   "ai": "AI code completion and chat",
+   "hint": "minimal",
+   "src": "https://github.com/features/copilot"
+  },
+  {
+   "id": "zoom",
+   "name": "Zoom AI Companion",
+   "aliases": [
+    "zoom"
+   ],
+   "ai": "Meeting summaries, transcripts, AI assistant",
+   "hint": "minimal",
+   "src": "https://zoom.com/en/products/ai-assistant/"
+  },
+  {
+   "id": "deepl",
+   "name": "DeepL",
+   "aliases": [
+    "deepl"
+   ],
+   "ai": "AI machine translation",
+   "hint": "minimal",
+   "src": "https://www.deepl.com/en/translator"
+  },
+  {
+   "id": "claude",
+   "name": "Anthropic Claude",
+   "aliases": [
+    "claude",
+    "anthropic"
+   ],
+   "ai": "General-purpose AI assistant / LLM",
+   "hint": "art50",
+   "src": "https://www.anthropic.com/claude"
+  },
+  {
+   "id": "workday",
+   "name": "Workday AI",
+   "aliases": [
+    "workday"
+   ],
+   "ai": "AI across HR and finance, including recruiting features",
+   "hint": "annex3-check",
+   "src": "https://workday.com/en-us/artificial-intelligence.html"
+  },
+  {
+   "id": "otter",
+   "name": "Otter.ai",
+   "aliases": [
+    "otter",
+    "otter.ai"
+   ],
+   "ai": "AI meeting transcription and notes",
+   "hint": "minimal",
+   "src": "https://www.otter.ai/"
+  },
+  {
+   "id": "figma",
+   "name": "Figma AI",
+   "aliases": [
+    "figma"
+   ],
+   "ai": "AI design generation and editing tools",
+   "hint": "minimal",
+   "src": "https://www.figma.com/ai/"
+  },
+  {
+   "id": "monday",
+   "name": "monday.com AI",
+   "aliases": [
+    "monday",
+    "monday.com"
+   ],
+   "ai": "AI blocks, agents and automations in work management",
+   "hint": "minimal",
+   "src": "https://www.monday.com/w/ai"
+  },
+  {
+   "id": "dropbox-dash",
+   "name": "Dropbox Dash",
+   "aliases": [
+    "dropbox",
+    "dash"
+   ],
+   "ai": "AI universal search and answers across work apps",
+   "hint": "minimal",
+   "src": "https://www.dropbox.com/dash"
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral Le Chat",
+   "aliases": [
+    "mistral",
+    "le chat"
+   ],
+   "ai": "General-purpose AI assistant / LLM",
+   "hint": "art50",
+   "src": "https://mistral.ai/products/le-chat"
+  },
+  {
+   "id": "jasper",
+   "name": "Jasper",
+   "aliases": [
+    "jasper"
+   ],
+   "ai": "AI marketing content generation",
+   "hint": "art50",
+   "src": "https://www.jasper.ai/"
+  },
+  {
+   "id": "miro",
+   "name": "Miro AI",
+   "aliases": [
+    "miro"
+   ],
+   "ai": "AI on the collaborative whiteboard (summaries, generation)",
+   "hint": "minimal",
+   "src": "https://www.miro.com/ai/"
+  },
+  {
+   "id": "runway",
+   "name": "Runway",
+   "aliases": [
+    "runway",
+    "runwayml"
+   ],
+   "ai": "AI video/media generation models",
+   "hint": "art50",
+   "src": "https://www.runwayml.com/"
+  },
+  {
+   "id": "ramp",
+   "name": "Ramp",
+   "aliases": [
+    "ramp"
+   ],
+   "ai": "AI for spend management and accounts payable",
+   "hint": "minimal",
+   "src": "https://ramp.com/"
+  },
+  {
+   "id": "bamboohr",
+   "name": "BambooHR (Bamboo AI)",
+   "aliases": [
+    "bamboohr",
+    "bamboo hr"
+   ],
+   "ai": "AI layer in HR, payroll and benefits platform",
+   "hint": "annex3-check",
+   "src": "https://www.bamboohr.com/"
+  },
+  {
+   "id": "xero",
+   "name": "Xero (JAX)",
+   "aliases": [
+    "xero"
+   ],
+   "ai": "AI finance assistant (JAX) in accounting software",
+   "hint": "minimal",
+   "src": "https://www.xero.com/"
+  },
+  {
+   "id": "deel",
+   "name": "Deel AI",
+   "aliases": [
+    "deel"
+   ],
+   "ai": "AI for hiring, payroll and IT workflows",
+   "hint": "annex3-check",
+   "src": "https://www.deel.com/ai/"
+  },
+  {
+   "id": "qualtrics",
+   "name": "Qualtrics XM AI",
+   "aliases": [
+    "qualtrics"
+   ],
+   "ai": "AI in experience management and survey analysis",
+   "hint": "minimal",
+   "src": "https://www.qualtrics.com/"
+  },
+  {
+   "id": "teamtailor",
+   "name": "Teamtailor AI",
+   "aliases": [
+    "teamtailor"
+   ],
+   "ai": "AI in recruiting (candidate scoring, task delegation)",
+   "hint": "annex3-check",
+   "src": "https://www.teamtailor.com/"
+  },
+  {
+   "id": "shopify",
+   "name": "Shopify Magic / Sidekick",
+   "aliases": [
+    "shopify"
+   ],
+   "ai": "AI commerce assistant and content generation",
+   "hint": "art50",
+   "src": "https://www.shopify.com/magic"
+  },
+  {
+   "id": "surveymonkey",
+   "name": "SurveyMonkey AI",
+   "aliases": [
+    "surveymonkey"
+   ],
+   "ai": "AI features in survey building and analysis",
+   "hint": "minimal",
+   "src": "https://www.surveymonkey.com/"
+  },
+  {
+   "id": "textio",
+   "name": "Textio",
+   "aliases": [
+    "textio"
+   ],
+   "ai": "AI for recruiting and performance management writing",
+   "hint": "annex3-check",
+   "src": "https://www.textio.com/"
+  },
+  {
+   "id": "cultureamp",
+   "name": "Culture Amp",
+   "aliases": [
+    "culture amp",
+    "cultureamp"
+   ],
+   "ai": "AI comment summaries in employee surveys and performance",
+   "hint": "annex3-check",
+   "src": "https://www.cultureamp.com/"
+  },
+  {
+   "id": "smartrecruiters",
+   "name": "SmartRecruiters",
+   "aliases": [
+    "smartrecruiters"
+   ],
+   "ai": "AI-powered talent acquisition and hiring platform",
+   "hint": "annex3-check",
+   "src": "https://www.smartrecruiters.com/"
+  },
+  {
+   "id": "calendly",
+   "name": "Calendly",
+   "aliases": [
+    "calendly"
+   ],
+   "ai": "AI meeting tools in scheduling software",
+   "hint": "minimal",
+   "src": "https://www.calendly.com/"
+  },
+  {
+   "id": "hibob",
+   "name": "HiBob (Bob AI)",
+   "aliases": [
+    "hibob"
+   ],
+   "ai": "AI embedded across HR people platform",
+   "hint": "annex3-check",
+   "src": "https://www.hibob.com/"
+  },
+  {
+   "id": "greenhouse",
+   "name": "Greenhouse",
+   "aliases": [
+    "greenhouse"
+   ],
+   "ai": "AI recruiting features incl. voice AI and sourcing",
+   "hint": "annex3-check",
+   "src": "https://www.greenhouse.io/"
+  },
+  {
+   "id": "cursor",
+   "name": "Cursor",
+   "aliases": [
+    "cursor"
+   ],
+   "ai": "AI coding agent / editor",
+   "hint": "minimal",
+   "src": "https://www.cursor.com/"
+  },
+  {
+   "id": "rippling",
+   "name": "Rippling",
+   "aliases": [
+    "rippling"
+   ],
+   "ai": "AI across HR, IT and finance data",
+   "hint": "annex3-check",
+   "src": "https://www.rippling.com/"
+  },
+  {
+   "id": "lever",
+   "name": "Lever",
+   "aliases": [
+    "lever"
+   ],
+   "ai": "AI-powered hiring platform / ATS",
+   "hint": "annex3-check",
+   "src": "https://www.lever.co/"
+  },
+  {
+   "id": "stability",
+   "name": "Stability AI",
+   "aliases": [
+    "stability",
+    "stable diffusion",
+    "stability ai"
+   ],
+   "ai": "Generative image, audio, video and 3D models",
+   "hint": "art50",
+   "src": "https://www.stability.ai/"
+  },
+  {
+   "id": "talkdesk",
+   "name": "Talkdesk",
+   "aliases": [
+    "talkdesk"
+   ],
+   "ai": "AI customer-experience automation in contact centres",
+   "hint": "art50",
+   "src": "https://www.talkdesk.com/"
+  },
+  {
+   "id": "typeform",
+   "name": "Typeform AI",
+   "aliases": [
+    "typeform"
+   ],
+   "ai": "AI form builder and generator",
+   "hint": "minimal",
+   "src": "https://www.typeform.com/ai/"
+  },
+  {
+   "id": "brex",
+   "name": "Brex",
+   "aliases": [
+    "brex"
+   ],
+   "ai": "AI to automate expense approvals and reports",
+   "hint": "minimal",
+   "src": "https://www.brex.com/"
+  },
+  {
+   "id": "elevenlabs",
+   "name": "ElevenLabs",
+   "aliases": [
+    "elevenlabs",
+    "eleven labs"
+   ],
+   "ai": "AI voice generation and voice agents",
+   "hint": "art50",
+   "src": "https://elevenlabs.io/"
+  },
+  {
+   "id": "gorgias",
+   "name": "Gorgias",
+   "aliases": [
+    "gorgias"
+   ],
+   "ai": "Conversational AI for e-commerce customer service",
+   "hint": "art50",
+   "src": "https://www.gorgias.com/"
+  },
+  {
+   "id": "zoho-zia",
+   "name": "Zoho Zia",
+   "aliases": [
+    "zoho",
+    "zia"
+   ],
+   "ai": "AI assistant across Zoho apps",
+   "hint": "minimal",
+   "src": "https://www.zoho.com/zia/"
+  },
+  {
+   "id": "fireflies",
+   "name": "Fireflies.ai",
+   "aliases": [
+    "fireflies",
+    "fireflies.ai"
+   ],
+   "ai": "AI meeting notes and assistant",
+   "hint": "minimal",
+   "src": "https://www.fireflies.ai/"
+  },
+  {
+   "id": "veed",
+   "name": "VEED",
+   "aliases": [
+    "veed"
+   ],
+   "ai": "AI video, voice, avatar and image generation",
+   "hint": "art50",
+   "src": "https://www.veed.io/"
+  },
+  {
+   "id": "wix",
+   "name": "Wix AI",
+   "aliases": [
+    "wix"
+   ],
+   "ai": "AI website builder",
+   "hint": "minimal",
+   "src": "https://www.wix.com/"
+  },
+  {
+   "id": "watsonx",
+   "name": "IBM watsonx",
+   "aliases": [
+    "watsonx",
+    "ibm watson"
+   ],
+   "ai": "AI and data platform, AI assistants",
+   "hint": "minimal",
+   "src": "https://www.ibm.com/watsonx"
+  },
+  {
+   "id": "klaviyo",
+   "name": "Klaviyo",
+   "aliases": [
+    "klaviyo"
+   ],
+   "ai": "AI marketing platform and B2C CRM",
+   "hint": "minimal",
+   "src": "https://www.klaviyo.com/"
+  },
+  {
+   "id": "lattice",
+   "name": "Lattice AI",
+   "aliases": [
+    "lattice"
+   ],
+   "ai": "AI people intelligence for performance management",
+   "hint": "annex3-check",
+   "src": "https://www.lattice.com/ai"
+  },
+  {
+   "id": "tidio",
+   "name": "Tidio (Lyro)",
+   "aliases": [
+    "tidio",
+    "lyro"
+   ],
+   "ai": "AI customer-service chat",
+   "hint": "art50",
+   "src": "https://www.tidio.com/"
+  },
+  {
+   "id": "cohere",
+   "name": "Cohere",
+   "aliases": [
+    "cohere"
+   ],
+   "ai": "Enterprise LLMs and AI platform",
+   "hint": "art50",
+   "src": "https://www.cohere.com/"
+  },
+  {
+   "id": "writer",
+   "name": "WRITER",
+   "aliases": [
+    "writer",
+    "writer.com"
+   ],
+   "ai": "Enterprise generative AI platform",
+   "hint": "art50",
+   "src": "https://www.writer.com/"
+  },
+  {
+   "id": "descript",
+   "name": "Descript",
+   "aliases": [
+    "descript"
+   ],
+   "ai": "AI video and audio editing",
+   "hint": "art50",
+   "src": "https://www.descript.com/"
+  },
+  {
+   "id": "datadog",
+   "name": "Datadog",
+   "aliases": [
+    "datadog"
+   ],
+   "ai": "AI features in observability and security platform",
+   "hint": "minimal",
+   "src": "https://www.datadoghq.com/"
+  },
+  {
+   "id": "azure-openai",
+   "name": "Azure OpenAI / Azure AI services",
+   "aliases": [
+    "azure openai",
+    "azure ai"
+   ],
+   "ai": "Cloud AI services including OpenAI models",
+   "hint": "art50",
+   "src": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
+  },
+  {
+   "id": "crowdstrike",
+   "name": "CrowdStrike",
+   "aliases": [
+    "crowdstrike",
+    "falcon"
+   ],
+   "ai": "AI-native cybersecurity platform",
+   "hint": "minimal",
+   "src": "https://www.crowdstrike.com/"
+  },
+  {
+   "id": "tabnine",
+   "name": "Tabnine",
+   "aliases": [
+    "tabnine"
+   ],
+   "ai": "AI code assistant",
+   "hint": "minimal",
+   "src": "https://www.tabnine.com/"
+  },
+  {
+   "id": "amazon-q",
+   "name": "Amazon Q (AWS)",
+   "aliases": [
+    "amazon q",
+    "aws q"
+   ],
+   "ai": "AI assistant for developers and business",
+   "hint": "minimal",
+   "src": "https://aws.amazon.com/q/"
+  },
+  {
+   "id": "dialpad",
+   "name": "Dialpad AI",
+   "aliases": [
+    "dialpad"
+   ],
+   "ai": "AI agents, transcription in calls and contact centre",
+   "hint": "art50",
+   "src": "https://www.dialpad.com/ai/"
+  },
+  {
+   "id": "hireez",
+   "name": "hireEZ",
+   "aliases": [
+    "hireez"
+   ],
+   "ai": "Agentic AI for recruiting on top of ATS",
+   "hint": "annex3-check",
+   "src": "https://www.hireez.com/"
+  },
+  {
+   "id": "gong",
+   "name": "Gong",
+   "aliases": [
+    "gong"
+   ],
+   "ai": "Revenue AI: call recording and analysis",
+   "hint": "minimal",
+   "src": "https://www.gong.io/"
+  },
+  {
+   "id": "five9",
+   "name": "Five9",
+   "aliases": [
+    "five9"
+   ],
+   "ai": "AI in contact-centre software",
+   "hint": "art50",
+   "src": "https://www.five9.com/"
+  },
+  {
+   "id": "clickup",
+   "name": "ClickUp Brain",
+   "aliases": [
+    "clickup"
+   ],
+   "ai": "AI assistant in work management",
+   "hint": "minimal",
+   "src": "https://clickup.com/ai"
+  },
+  {
+   "id": "copyai",
+   "name": "Copy.ai",
+   "aliases": [
+    "copy.ai",
+    "copyai"
+   ],
+   "ai": "GTM AI content and workflow generation",
+   "hint": "art50",
+   "src": "https://www.copy.ai/"
+  },
+  {
+   "id": "loom",
+   "name": "Loom AI",
+   "aliases": [
+    "loom"
+   ],
+   "ai": "AI for recorded video messages",
+   "hint": "minimal",
+   "src": "https://www.loom.com/ai"
+  },
+  {
+   "id": "pipedrive",
+   "name": "Pipedrive AI sales assistant",
+   "aliases": [
+    "pipedrive"
+   ],
+   "ai": "AI sales assistant in CRM",
+   "hint": "minimal",
+   "src": "https://www.pipedrive.com/en/features/ai-sales-assistant"
+  },
+  {
+   "id": "asana",
+   "name": "Asana AI",
+   "aliases": [
+    "asana"
+   ],
+   "ai": "AI and agents in work management",
+   "hint": "minimal",
+   "src": "https://www.asana.com/product/ai"
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle AI",
+   "aliases": [
+    "oracle",
+    "oracle cloud"
+   ],
+   "ai": "AI across Oracle cloud applications and infrastructure",
+   "hint": "minimal",
+   "src": "https://www.oracle.com/artificial-intelligence/"
+  },
+  {
+   "id": "synthesia",
+   "name": "Synthesia",
+   "aliases": [
+    "synthesia"
+   ],
+   "ai": "AI video and avatar generation",
+   "hint": "art50",
+   "src": "https://www.synthesia.io/"
+  },
+  {
+   "id": "airtable",
+   "name": "Airtable AI",
+   "aliases": [
+    "airtable"
+   ],
+   "ai": "AI app building and AI fields",
+   "hint": "minimal",
+   "src": "https://www.airtable.com/platform/ai"
+  },
+  {
+   "id": "heygen",
+   "name": "HeyGen",
+   "aliases": [
+    "heygen"
+   ],
+   "ai": "AI video with personal avatars",
+   "hint": "art50",
+   "src": "https://www.heygen.com/"
+  },
+  {
+   "id": "webflow",
+   "name": "Webflow AI",
+   "aliases": [
+    "webflow"
+   ],
+   "ai": "AI website building and agents",
+   "hint": "minimal",
+   "src": "https://webflow.com/ai"
+  },
+  {
+   "id": "darktrace",
+   "name": "Darktrace",
+   "aliases": [
+    "darktrace"
+   ],
+   "ai": "AI cybersecurity platform",
+   "hint": "minimal",
+   "src": "https://www.darktrace.com/"
+  },
+  {
+   "id": "vertex",
+   "name": "Google Cloud Vertex AI",
+   "aliases": [
+    "vertex",
+    "vertex ai"
+   ],
+   "ai": "Platform to build generative AI apps and agents (Gemini)",
+   "hint": "art50",
+   "src": "https://cloud.google.com/vertex-ai"
+  },
+  {
+   "id": "aleph-alpha",
+   "name": "Aleph Alpha",
+   "aliases": [
+    "aleph alpha"
+   ],
+   "ai": "Sovereign LLMs and AI ecosystem",
+   "hint": "art50",
+   "src": "https://www.aleph-alpha.com/"
+  }
+ ]
+}

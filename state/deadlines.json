@@ -1,0 +1,37 @@
+{
+ "name": "EU AI Act key dates (EURO AI)",
+ "checked": "2026-10-13",
+ "note": "Suggestions only, not legal advice. Primary sources linked per entry.",
+ "deadlines": [
+  {
+   "date": "2025-02-02",
+   "title": "AI Act Art. 4 AI literacy applies (and Art. 5 prohibitions)",
+   "desc": "Art. 113(a) Reg. (EU) 2024/1689. National supervision of Art. 4 from August 2026.",
+   "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+  },
+  {
+   "date": "2026-08-02",
+   "title": "AI Act Art. 50 transparency obligations apply; general date of application",
+   "desc": "Art. 113 Reg. (EU) 2024/1689.",
+   "source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+  },
+  {
+   "date": "2026-12-02",
+   "title": "AI Act new prohibitions Art. 5(1)(ba) and (bb) apply",
+   "desc": "Non-consensual intimate content and CSAM generation, inserted by Reg. (EU) 2026/1744.",
+   "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+  },
+  {
+   "date": "2027-12-02",
+   "title": "AI Act high-risk obligations for Annex III systems apply",
+   "desc": "Chapter III Sections 1-3 for Art. 6(2)/Annex III systems, as set by Reg. (EU) 2026/1744.",
+   "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+  },
+  {
+   "date": "2028-08-02",
+   "title": "AI Act high-risk obligations for Annex I (product) systems apply",
+   "desc": "As set by Reg. (EU) 2026/1744.",
+   "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+  }
+ ]
+}
