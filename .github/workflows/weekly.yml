@@ -1,0 +1,21 @@
+name: weekly-rescan
+on:
+  schedule:
+    - cron: "30 3 * * 1"   # Mondays 03:30 UTC = 09:00 IST
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  rescan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 digest.py
+      - name: commit digest
+        run: |
+          git config user.name "euro-ai-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digests state
+          git diff --cached --quiet || git commit -m "weekly re-scan $(date -u +%F)"
+          git push
