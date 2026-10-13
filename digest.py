@@ -41,7 +41,7 @@ def main(check_links=True):
     L += ["## Vendor source links needing a look (internal)", *([f"- {n}: HTTP {s} {u}" for n, u, s in broken] or ["- none"]), ""]
     mail = "\n".join(L[:L.index("## Vendor source links needing a look (internal)")]) + \
         "\nRe-scan your own tool list: https://unadhi.com/platform/app/\n\nSuggestions only, not legal advice. Primary sources: EUR-Lex Reg. (EU) 2024/1689 and 2026/1744.\nYou get this because you opted in. To stop, reply with UNSUBSCRIBE.\n"
-    os.makedirs(os.path.join(ROOT, "digests"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "digests"), exist_ok=True); os.makedirs(os.path.join(ROOT, "state"), exist_ok=True)
     open(os.path.join(ROOT, "digests", today + ".md"), "w").write("\n".join(L) + "\n")
     open(os.path.join(ROOT, "digests", today + ".email.txt"), "w").write("Subject: EURO AI weekly re-scan " + today + "\n\n" + mail)
     open(os.path.join(ROOT, "digests", "LATEST.md"), "w").write("\n".join(L) + "\n")
