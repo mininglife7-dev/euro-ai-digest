@@ -1,4 +1,4 @@
-# EURO AI weekly re-scan: 2026-11-02
+# EURO AI weekly re-scan: 2026-11-09
 
 Catalogue: 79 vendors (checked 2026-10-13). Deadlines tracked: 5.
 
